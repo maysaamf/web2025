@@ -7,6 +7,30 @@
 </head>
 <body>
     <h1>DATA MAHASISWA</h1>
-    <?php echo "ini data mahasiswa";?>
+    <br>
+    <table border= "1" cellspacing = "0" cellpadding = "1">
+        <thead>
+            <th>No</th>
+            <th>NIM</th>
+            <th>Nama</th>
+        </thead>
+        <tbody>
+        <tr>
+        <td>1</td>
+        <td>E020323004</td>
+        <td>Maysa</td>
+       </tr>
+       <tr>
+        <td>2</td>
+        <td>E020323090</td>
+        <td>Hasna</td>
+       </tr>
+       <tr>
+        <td>3</td>
+        <td>E020323085</td>
+        <td>Amel</td>
+       </tr>
+        </tbody>
+    </table>
 </body>
 </html>
