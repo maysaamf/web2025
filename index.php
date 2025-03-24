@@ -14,11 +14,16 @@ $data = ambildata($query);
 <body>
     <h1>DATA MAHASISWA</h1>
     <br>
+    <a href = "tambahmahasiswa.php">tambah</a>
     <table border= "1" cellspacing = "0" cellpadding = "1">
         <thead>
             <th>No</th>
             <th>NIM</th>
             <th>Nama</th>
+            <th>Tanggal Lahir</th>
+            <th>No hp</th>
+            <th>Email</th>
+            <th>id</th>
         </thead>
         <tbody>
         <?php 
@@ -28,6 +33,13 @@ $data = ambildata($query);
         <td><?= $i++; ?></td>
         <td><?= $d["NIM"] ?></td>
         <td><?= $d["Nama"] ?></td>
+        <td><?= $d["Tanggal_Lahir"] ?></td>
+        <td><?= $d["No_hp"] ?></td>
+        <td><?= $d["email"] ?></td>
+        <td><?= $d["id"] ?></td>
+        
+        
+
        </tr>
        <?php endforeach ; ?>  
         </tbody>
